@@ -40,3 +40,9 @@ for key, value in quiz.items():
         print("wrong!")
         print("the answer is ;"+ value['answer'])
         print("your score is:"+ str(score))
+        print("")
+        print("")
+
+print("you got" + str(score) +"out of 3 questions correctly")
+print("your percentage is"+str(score/3 * 100)+"%")
+
