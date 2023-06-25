@@ -18,5 +18,5 @@ def genterate_qrcode(text):
     qr.make(fit=True)
     img= qr.make_image(fill_color="black",back_color="white")
     img.save("qrimg.png")
-
-genterate_qrcode("https://www.youtube.com/channel/UCNRvEY-e90FaHSNe84M7PJw")
+url = input("enter your url: ")
+genterate_qrcode(url)
