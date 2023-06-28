@@ -4,18 +4,10 @@
 # print the defination
 
 
-def main():
-    word_Dictionary = {
-        'hi': 'way of greeting',
-        'eyes' : 'an organ for seeing',
-        'earth' : 'only a living planet'
-    }
+import PyDictionary
 
-    while True:
-        word = str.lower(input("enter the word"))
-        if word == "":
-            break
-        if word in word_Dictionary:
-            print(word,";",word_Dictionary[word])
+dictionary = PyDictionary()
 
-main()
+word = input("enter the word")
+print(dictionary.meaning(word))
+
