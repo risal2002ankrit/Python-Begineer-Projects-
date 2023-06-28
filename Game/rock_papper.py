@@ -35,7 +35,7 @@ while end == False:
                 user_point += 1
             elif computer_input == "paper":
                 print("tie")
-            elif computer_input == "sissor":
+            elif computer_input == "scissor":
                 print("you lost")
                 computer_point += 1
             else:
@@ -56,5 +56,5 @@ while end == False:
         elif user_input != 'rock' or user_input != 'paper' or user_input != 'scissor':
             print("Invalid input")
 
-print("your score is", user_point)
-print("computer score is", computer_point)
+    print("your score is", user_point)
+    print("computer score is", computer_point)
