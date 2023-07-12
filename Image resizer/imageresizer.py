@@ -21,4 +21,5 @@ size1 = int(input('enter width: '))
 size2 = int(input('enter length: '))
 resized_image(size1, size2)
 
+#img resizer
 
